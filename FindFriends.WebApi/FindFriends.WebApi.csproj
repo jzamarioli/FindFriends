@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FindFriends.Application\FindFriends.Application.csproj" />
+    <ProjectReference Include="..\FindFriends.Application\FindFriends.Application.csproj" />
+    <ProjectReference Include="..\FindFriends.Domain\FindFriends.Domain.csproj" />
+    <ProjectReference Include="..\FindFriends.Infra.Data\FindFriends.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

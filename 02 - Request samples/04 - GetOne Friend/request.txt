@@ -1,0 +1,7 @@
+http://localhost:61589/api/friends/getbyid/3
+
+type: GET
+
+header: 
+Key: Authorization
+Value: Bearer <token>

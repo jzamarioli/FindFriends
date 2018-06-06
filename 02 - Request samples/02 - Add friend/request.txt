@@ -1,0 +1,24 @@
+http://localhost:61589/api/friends/add
+
+type: POST
+
+Json body:
+
+{
+      
+  "name": "Carla",
+
+  "city": "São Paulo",
+ 
+  "country": "Brazil",
+  
+  "latitude":-23.5505,
+  
+  "longitude": -46.6333
+
+}
+
+
+header: 
+Key: Authorization
+Value: Bearer <token>

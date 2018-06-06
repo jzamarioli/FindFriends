@@ -1,0 +1,13 @@
+http://localhost:61589/api/token
+
+
+type: POST
+
+
+Json body:
+
+{
+ "Username": "user",
+ "Password": "pwd"
+
+}

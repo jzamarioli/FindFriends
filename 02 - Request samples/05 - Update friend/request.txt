@@ -1,0 +1,29 @@
+http://localhost:61589/api/friends/update
+
+
+type: PUT
+
+
+Json body
+
+{
+	
+    "id": 25,
+ 
+    "name": "Rosa",
+ 
+    "city": "Buenos Aires",
+  
+    "country": "Argentina",
+    
+    "latitude": -34.6037,
+   
+    "longitude": -58.3815
+
+}
+
+
+
+header: 
+Key: Authorization
+Value: Bearer <token>

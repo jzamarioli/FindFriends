@@ -1,0 +1,9 @@
+http://localhost:61589/api/friends/delete/27
+
+
+type: DELETE
+
+
+header: 
+Key: Authorization
+Value: Bearer <token>
