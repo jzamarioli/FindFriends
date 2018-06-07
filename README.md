@@ -1,8 +1,10 @@
 # FindFriends
 <p><h4>FindFriends sample project.</h4></p>
 <br />
+This is a .Net Core Web Api project that stores the latitude/longitude coordinates of friends, and then allows the user to make a search for the 3 nearest friends of a friend passed as parameter.
+That project doesn't use any geolocation Api, it's just a simple C# alghorithm to bring back a list of closest friends.
 
-<p><strong>Tools:</strong><p>
+<p><strong>Tools used:</strong><p>
 
 Visual Studio Community 2017
 
