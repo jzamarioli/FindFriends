@@ -21,11 +21,11 @@ Postman
 
 <p><strong>Instructions:</strong></p>
 
-All database scripts are stored in folder 'DB Scripts'.
+All database scripts are stored in 'DB Scripts' folder.
 
-The sample requests are in folder 'Request samples' (screenshots included).
+The sample requests are in 'Request samples' folder (screenshots included).
 
-The connection string is in file 'appsettings.json' (FindFriends.WebApi project).
+The connection string is in 'appsettings.json' file (FindFriends.WebApi project).
 
 
 <br />
